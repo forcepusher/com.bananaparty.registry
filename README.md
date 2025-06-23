@@ -27,3 +27,9 @@ See minimum required Unity version in the `package.json` file.
    	- No more buggy static Singleton instances (however this package supports and endorses it, except the static part).  
    	- No more laggy DI Container framework bloatware.  
 	- No more slow FindObjectOfType or FindObjectOfTypeAll.
+  
+### TL;DR:  
+Just put the references you need into a Scriptable Object and use them across the project.  
+	- Scriptable Objects are not statics, it's just an asset reference.  
+ 	- You can create multiple instances of same type and it's prefectly usable in scene-based integration tests.  
+  	- Again, Interfaces are fully supported for creating test mocks.
