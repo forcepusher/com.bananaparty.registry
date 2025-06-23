@@ -29,7 +29,7 @@ See minimum required Unity version in the `package.json` file.
 	- No more slow FindObjectOfType or FindObjectOfTypeAll.
   
 ### TL;DR:  
-This package is essentially about putting the references you need into a Scriptable Object and use them across the project.  
+1. This package is essentially about putting the references you need into a Scriptable Object and use them across the project.  
 	- Scriptable Objects are not statics, it's just an asset reference.  
  	- You can create multiple instances of same type and it's prefectly usable in scene-based integration tests.  
   	- Again, Interfaces are fully supported for creating test mocks.
