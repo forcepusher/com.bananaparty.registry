@@ -31,5 +31,5 @@ See minimum required Unity version in the `package.json` file.
 ### TL;DR:  
 1. This package is essentially about putting the references you need into a Scriptable Object and use them across the project.  
 	- Scriptable Objects are not statics, it's just an asset reference.  
- 	- You can create multiple instances of same type and it's prefectly usable in scene-based integration tests.  
+ 	- You can create multiple instances of same type and it's prefectly usable in integration tests.  
   	- Again, Interfaces are fully supported for creating test mocks.
